@@ -1,0 +1,27 @@
+DESIGN METHODOLOGY:
+
+Interface:
+When it comes to the interface of the whole program, I gave some thought to it. I wanted this program to be as interactive as possible with the user. So, I decided to add a visual effect to the button sprites in the menu. As the mouse pointer goes over a particular button sprite, the size of the button increases as well as its brightness. The button then goes back to normal size and brightness when the pointer is no longer on it. This is aesthetically pleasing and at the same time makes the buttons indicative and stand out momentarily compared to other buttons while the pointer is on it. Furthermore, I also made sure that a sound is produced whenever a button sprite is clicked for indicative purposes. I made the buttons blue and the words on it yellow as yellow tend to stand out more when it's overlapping the blue color.
+
+Math game:
+(1) Overall game
+I wanted my game to provide the player with as much learning experience as possible and at the same time to make sure that the game doesn't get boring and get less fun. A simple counting game wouldn't do much as the content runs out very quickly. This type of game is based on maximum engagement with the player. As the players get more engaged, they will enjoy the game more and more. The engagement will make the players eager to gain as much score as possible. So, even when they lose the game, there will be a chance to gain more scores which is through answering math questions generated randomly. The questions will get harder and the score gained will increase with each question as well. In that way, the players' desired score can be reached and at the same time learn something when the answer is wrong and the game ends. The addition skills will definitely improve as the players keep on playing the game. If the players play with their friends, they will develop competitive skills as they try to beat each other's highscore. The more competitive they become, the more things they learn from this game.  
+
+(2) Highscore system
+The highscore part was challenging for me. I was vaguely unaware that I could use lists to store the highscores instead of storing each of them in a variable. Even then, I tried to put separate lists for highscore names and highscores and display them side by side. Everything seemed really out of place as there were two separate lists. I had to come up with the idea to use join blocks to join the values in each index of both 'highscores' and 'highscore names' lists. The joined values are then added to a separate list called 'leaderboard for math game' for displaying purposes. That way, the scores can clearly be displayed alongside the names without having to display two lists. 
+(3) Explosion of bad guy spacecrafts
+I had a hard time trying to figure out how to make the explosion sprite appear exactly where the bad guy spacecraft disappears after being shot by the laser from the player's spacecraft. Later on, I was able to solve it by firstly storing the x position and y position values of the bad guy spacecraft when it gets hit by the laser in two variables Then, a clone of explosion sprite is created and it appears exactly where the bad guy spacecraft was shot due to setting the x and y positions as the two variables stored earlier and it will change costumes till the very last one to simulate the animation of explosion.
+
+USER MANUAL:
+
+Menu:
+As the program starts, you will see the options 'START' and 'SETTINGS'. By default, the math game will be chosen for you. In the settings, you can switch between the two games and adjust the volume. You can also click on 'Show Scores' to view the highscores on the leader-board and you can reset all of them by clicking on 'Reset Scores'. Furthermore, you can also choose to turn the timer on or off. There is also a speaker icon at the bottom corner of the screen which allows you to mute the music playing in the background.
+
+Math game:
+When the game starts, you will be controlling a spacecraft which can move left and right by pressing the left and right arrows on the keyboard. You can also press 'a' and 'd' to move the spacecraft. You can also shoot lasers from your spacecraft by pressing space on the keyboard. Bad guys' spacecrafts will appear randomly and you will have to shoot them down using lasers. You will lose the game if you fail to hit them while they hit you or pass you. Likewise, if the timer's on and when the time's up, you will lose the game as well. Furthermore, even after you lose the game, you will still have a chance to gain more scores by answering the math questions being asked. The more you answer the questions correctly, the harder the questions will get. Even though the questions get harder, if you still answer them correctly, you will get more scores as well.
+
+Link to game: https://scratch.mit.edu/projects/381803335/
+
+
+
+
